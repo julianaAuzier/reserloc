@@ -336,10 +336,10 @@
 									<table>
 										<tr>
 											<td>
-												<h2 class="description description-primary">Entrada &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+												<h2 class="description description-primary">Entrada</h2>
 											</td>
 											<td>
-												<h2 class="description description-primary">Saída &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+												<h2 class="description description-primary">Saída</h2>
 											</td>
 											<td>
 												<h2 class="description description-primary">Data</h2>
