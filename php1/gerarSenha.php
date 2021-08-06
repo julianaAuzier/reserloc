@@ -38,5 +38,5 @@
 			echo "<script>location.href='../admin.php'</script>";
 		}
 	}else
-		echo"erro";	
+	echo"erro";	
 ?>
