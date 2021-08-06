@@ -31,8 +31,6 @@ body {
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
-
     left: 0;
 }
 .title {
@@ -191,9 +189,6 @@ input:-webkit-autofill
 .password::first-letter {
     text-transform: capitalize;
 }
-
-
-
 .sign-in-js .first-content .first-column {
     z-index: -1;
 }
