@@ -23,7 +23,6 @@ include "conecta_banco.php";
 		}
 		
 		if(($_emailconv)!=""){
-			//echo "<script>alert('user existe');</script>";
 			$mensagem="!Gere uma senha para este novo usuario.";
 			
 			$sql2=$dbcon->query("INSERT INTO mensagem(usuario,mensagem) VALUES ('$_emailconv','$mensagem')");
