@@ -438,7 +438,6 @@
 					</label>
 				</li>
 			</ul>
-		</meta>
 		</nav>
 	</body>
 </html>
