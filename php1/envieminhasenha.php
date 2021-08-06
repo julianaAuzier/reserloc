@@ -9,7 +9,6 @@ include "conecta_banco.php";
 		
 		$_usuarioDoSistema = $dbcon->query("select id from user where email='$usuario'");
 		if(mysqli_num_rows($_usuarioDoSistema)>0){
-			//echo "<script>alert('user existe');</script>";
 			$mensagem="!Por favor, preciso de uma nova senha";
 			
 			$sql2=$dbcon->query("INSERT INTO mensagem(usuario,mensagem) VALUES ('$usuario','$mensagem')");
