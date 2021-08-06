@@ -3,12 +3,7 @@ include "conecta_banco.php";
 
 	if(isset($_POST)){
 		$idconv= $_GET['id'];
-		
-		/*$conversao = array('ç' => 'c', 'Ç' => 'C', 'á' => 'a', 'à' => 'a', 'â' => 'a', 'ã' => 'a', 'é' => 'e', 'è' => 'e', 'ê' => 'e', 'í' => 'i', 'î' => 'i', 'ì' => 'i', 'ï' => 'i', 'ó' => 'o', 'ô' => 'o', 'ò' => 'o', 'ö' => 'o', 'õ' => 'o', 'ú' => 'u', 'ù' => 'u', 'ü' => 'u', 'Á' => 'A', 'Ã' => 'A', 'É' => 'E', 'È' => 'E', 'Ê' => 'E', 'Í' => 'I', 'Î' => 'I', 'Ì' => 'I', 'Ï' => 'I', 'Ó' => 'O', 'Ô' => 'O', 'Ò' => 'O', 'Ö' => 'O', 'Õ' => 'O', 'Ú' => 'U', 'Ù' => 'U', 'Ü' => 'U');
-		$usuario = strtr($usuario, $conversao);*/
-		
 		$_emailconv = $dbcon->query("select email from convidado where idConv='$idconv'");
-		
 		$result = $dbcon->query("SELECT * FROM convidado where idConv = '$idconv'");
 		if(mysqli_num_rows($result)>0){
 			while($row = $result ->fetch_array()){
