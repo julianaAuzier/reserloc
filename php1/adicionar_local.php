@@ -34,17 +34,7 @@ include "conecta_banco.php";
 		if(mysqli_num_rows($verifica)>0){
 		
 				echo "<script>alert('Erro: Local já cadastrado no sistema');</script>";
-				echo "<script>location.href='../addLocal.php'</script>";
-		
-			/*if(mysqli_num_rows($_sql3)>0){
-				
-				
-				if(mysqli_num_rows($_sql2)>0){
-					echo "<script>alert('Erro: Local já cadastrado no sistema');</script>";
-					echo "<script>location.href='../addLocal.php'</script>";
-				}
-			}*/
-			
+				echo "<script>location.href='../addLocal.php'</script>";		
 		}else{
 			$sql2=$dbcon->query("INSERT INTO local(nomeL, predio, numPorta,campus) VALUES ('$nome','$predio','$numPorta','$nomeCampus')");
 			
