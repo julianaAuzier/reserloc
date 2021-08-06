@@ -38,16 +38,5 @@
 			echo "<script>location.href='../admin.php'</script>";
 		}
 	}else
-		echo"erro";
-
-	// ini_set('display_errors', 1);
-	// error_reporting(E_ALL);
-	// $from = "juliana.auzier.s@gmail.com";
-	// $to = "conv";
-	// $subject = "Verificando o correio do PHP";
-	// $message = "Sua senha de acesso ao Sistema de Reservas da UFOPA (RESERLOC) é: $resultado_final";
-	// $headers = "De:". $from;
-	// mail($to, $subject, $message, $headers);
-	// echo "Senha enviada. ";
-	
+		echo"erro";	
 ?>
