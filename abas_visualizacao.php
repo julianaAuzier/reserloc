@@ -14,12 +14,9 @@
 		//if(($_SESSION['email']=="juliana@juliana")and($_SESSION['senha']=="senha0"))
 		if(($_SESSION['nomeUser']=="Administrador"))
 			header('Location:admin.php');
-		// else
-			// header('Location:abas_visualizacao.php');
 	}
 ?>
 <!DOCTYPE html>
-
 <html>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,11 +27,9 @@
 		
 	<head></head>
 	<body>
-
 		<nav>
 			<img src="css/ufopa.jpg" class="ufopa">
 		</nav>
-
 		<nav class="nav_tabs">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 			<ul>
@@ -59,7 +54,6 @@
 								}
 							});
 						}
-						
 						$('#hist').keyup(function(){
 							var search = $(this).val();
 							if(search != '')
